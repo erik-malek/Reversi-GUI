@@ -1,3 +1,10 @@
+/*
+@Name = Erik Malek Merkoomyans
+@Class = CSC321 Programming 3
+@Purpose = Create first layout of Reversi Board 
+ */
+
+ 
 import java.awt.*;
 import javax.swing.*;
 
