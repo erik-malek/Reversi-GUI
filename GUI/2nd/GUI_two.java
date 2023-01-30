@@ -8,11 +8,11 @@
  import java.awt.*;
  import javax.swing.*;
  
- public class Buttons {
+ public class GUI_two {
    private JFrame frame;
    private JButton[][] buttons;
  
-   public Buttons() {
+   public GUI_two() {
      frame = new JFrame("Reversi GUI");
      frame.setLayout(new GridLayout(8, 8));
  
@@ -41,7 +41,7 @@
    }
  
    public static void main(String[] args) {
-     new Buttons();
+     new GUI_two();
    }
  }
    
