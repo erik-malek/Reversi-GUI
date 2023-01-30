@@ -4,7 +4,7 @@
 @Purpose = Create first layout of Reversi Board 
  */
 
- 
+
 import java.awt.*;
 import javax.swing.*;
 
@@ -19,9 +19,8 @@ public class Buttons {
     buttons = new JButton[8][8];
     for (int row = 0; row < 8; row++) {
       for (int col = 0; col < 8; col++) {
-        buttons[row][col] = new JButton();
-        buttons[row][col].setBackground(Color.GREEN);
-        
+        buttons[row][col] = new JButton(); 
+        buttons[row][col].setBackground(Color.GREEN); 
         frame.add(buttons[row][col]);
       }
     }
